@@ -1,0 +1,19 @@
+# Java build output
+backend/target/
+
+# Node.js dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Editor, operating system, and log files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
